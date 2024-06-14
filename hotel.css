@@ -1,0 +1,68 @@
+*{
+/* selector universal */
+margin: 0;
+padding: 0;
+font-family:Arial,Helvetica, sans-serif;
+}
+
+body{
+/* selector de etiqueta */
+background: purple;
+}
+
+.content-form{
+/*tama�o de ancho*/
+width: 350px;
+height: 200px; /* tama�o de alto*/
+/*color de fondo*/
+background: #6A1B9A;
+margin:auto;
+padding: 30px; /* espaciado entre los controles*/
+margin-top: 30px;
+border: 3px solid #EDE7F6;
+/*redondear esquinas*/
+border-radius: 10px;
+/*sombra al formulrario*/
+box-shadow: 10px 15px 40px black;
+
+}
+
+h3, h4{
+text-align: center;
+color: aliceblue;
+/*sombra al formulrariopadding.top: 20px;
+padding-bottom 20px;*/
+
+}
+
+form{
+width: auto;
+
+}
+
+.cajas-texto{
+width: 95%;
+padding: 5px;
+margin-bottom:10px;
+
+}
+
+/* selector id */
+#botones, select{
+ width: 100%;
+ padding: 6px
+ margin-bottom 15px;
+ background: pink;
+ border: 3px #FCE4EC;
+ color: green;
+}
+
+/* selector de pseudo clase */
+#botones:hover{
+ background: #F06292;
+ color: purple;
+ cursor: pointer;
+font-family: cursive;
+font-size: 15px;
+
+}

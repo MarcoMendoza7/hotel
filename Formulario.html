@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOTEL REAL JILO</title>
+  <link rel="stylesheet" href="/home/marco/Documentos/ESTRUCTURA DE DATOS/Hotel/hotel.css">
+</head>
+<body>
+    <section class="content-form">
+      <h3>Bienvenido a Hotel "REAL JILO"</h3>
+      <form id="frmHotel">
+      <!-- es un comentario
+      otro comentario
+      -->
+      <input id="txtDiasHosp" class="cajas-texto "type="number" placeholder="Dias Hospedados"></input>
+      <input id ="txtPrecioDiario" class="cajas-texto" type="number" placeholder="Precio Diario por habitaci�n"></input>
+      <select id="cmbTipoPago" size="1">
+      <option value="no selecciona">--Seleccione Tipo de Pago</option>
+      <option value="efectivo">Efectivo</option>
+      <option value="tarjeta">Tarjeta de Credito</option>
+      </select>
+      <button id="botones" type="submit">Calcular Hospedaje</button>
+      <button id="botones" type="reset">Cancelar</button>
+      </form>
+      <h4 id="resultado"></h4>
+    </section>
+    <script src="/home/marco/Documentos/ESTRUCTURA DE DATOS/Hotel/hotel.js"></script>
+</body>
+</html>
